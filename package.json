@@ -1,0 +1,22 @@
+{
+  "name": "trevor-bot",
+  "version": "1.0.0",
+  "description": "Virtual Trevor Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t",
+    "start": "pm2 start index.js --name 'trevorBot' --watch"
+  },
+  "author": "Noah Lichtenberg",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bad-words": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "g": "^2.0.1",
+    "scrape-it": "^5.2.3",
+    "slackbots": "^1.2.0",
+    "superagent": "^5.2.2",
+    "system-sleep": "^1.3.6"
+  }
+}
